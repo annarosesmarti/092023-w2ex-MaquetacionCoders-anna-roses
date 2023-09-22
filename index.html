@@ -16,33 +16,39 @@
 
 <body>
   <header>
-    <img src="/images/logo.svg" alt="coders logo" width="" height="">
-    <ul>
-      <li><a href="https://isdicoders.com/" target="_blank">Homepage</a></li>
-      <li><a href="https://isdicoders.com/equipo/" target="_blank">Service</a></li>
-      <li><a href="https://isdicoders.com/contacto/" target="_blank">Contact</a></li>
+    <img class="logo" src="/images/logo.svg" alt="coders logo">
+    <ul class="main-menu">
+      <li class="main-menu-item"><a href="https://isdicoders.com/" target="_blank">Homepage</a></li>
+      <li class="main-menu-item"><a href="https://isdicoders.com/equipo/" target="_blank">Service</a></li>
+      <li class="main-menu-item"><a href="https://isdicoders.com/contacto/" target="_blank">Contact</a></li>
     </ul>
   </header>
-  <section class="container">
-    <img class="hero" src="/images/isdiCodersCharlaJoanLeon.jpg" alt="ISDI Coders Charla Joan Leon">
-    <h1>Charla de Joan León sobre performance</h1>
-  </section>
-  <section class="text">
-    <h2>Aprendiendo a ser Developer</h2>
-    <article>
-      <h3>Buenas prácticas</h3>
-      <p>No queremos programar de cualquier manera, queremos aplicar las buenas prácticas establecidas por la comunidad.
-      </p>
-    </article>
-    <article>
-      <h3>El usuario en el centro</h3>
-      <p>Al desarrollar nuestras aplicaciones ponemos al usuario final en el centro.</p>
-    </article>
-    <article>
-      <h3>Clean Code</h3>
-      <p>No escribimos código para las máquinas, escribimos código para los humanos.</p>
-    </article>
-  </section>
+  <main>
+    <section class="container">
+      <img class="hero" src="/images/isdiCodersCharlaJoanLeon.jpg" alt="ISDI Coders Charla Joan Leon">
+      <h1>Charla de Joan León sobre performance</h1>
+    </section>
+    <section>
+      <h2 class="section-title">Aprendiendo a ser Developer</h2>
+      <section class="parent-container">
+        <article class="child-continer">
+          <h3 class="title">Buenas prácticas</h3>
+          <p class="text">No queremos programar de cualquier manera, queremos aplicar las buenas prácticas establecidas
+            por la
+            comunidad.
+          </p>
+        </article>
+        <article class="child-continer">
+          <h3 class="title">El usuario en el centro</h3>
+          <p class="text">Al desarrollar nuestras aplicaciones ponemos al usuario final en el centro.</p>
+        </article>
+        <article class="child-continer">
+          <h3 class="title">Clean Code</h3>
+          <p class="text">No escribimos código para las máquinas, escribimos código para los humanos.</p>
+        </article>
+      </section>
+    </section>
+  </main>
 </body>
 
 </html>
